@@ -1,28 +1,20 @@
 body {
-  background-color: #a796ab; /* Your original background color */
+  background-color: #7993e7; /* Your original background color */
   font-family: verdana;
-  color: #777777;
+  color: #3b3b3b;
+  line-height: 0.8;
   text-align: center;
-  margin: 0;
   display: flex;
+  margin: 0;
   justify-content: center; /* Centers the pillar horizontally */
-  align-items: center;     /* Centers the pillar vertically */
-  min-height: 100vh;
 }
-
-.content {
-  /* The 4:3 Math */
-  aspect-ratio: 4 / 3; 
-  height: 90vh; /* Takes up 90% of the screen height */
-  
-  /* Styling the "Box" */
-  background-color: #ffffff; 
-  border: 5px solid #000;
-  overflow-y: auto; /* Adds a scrollbar if your content is too long */
-  padding: 20px;
-  box-shadow: 0 0 50px rgba(0,0,0,0.5); /* Adds a shadow for depth */
+a:link{
+  text-decoration: none;
+  color: #f196d6;
 }
-
+a:hover{
+  color: #d17979
+}
 h1 {
   color: #333333;
 }
@@ -40,4 +32,21 @@ p {
 img {
   max-width: 100%;
   height: auto;
+}
+.content {
+  /* The 4:3 Math */
+  aspect-ratio: 3 / 3; 
+  height: 100vh; /* Takes up 90% of the screen height */
+  
+  /* Styling the "Box" */
+  background-color: #b87fc5; 
+ /* border: 5px solid #000; */
+  padding-top: 0vh;    /* Responsive top padding */
+  padding-bottom: 0vh; /* Responsive bottom padding */
+}
+.sidebar1{
+  background-color: aliceblue;
+  height: 100vh;
+  padding-top: 0vh;
+  padding-bottom: -10vh;
 }
